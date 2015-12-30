@@ -1,0 +1,19 @@
+// out: ../widget.min.css, sourcemap: false, compress: true
+@weight: bold;
+@size: 14px;
+
+.remove_margin() {
+  margin: 0;
+}
+
+.eastline-widget {
+  .eastline-widget-name {
+    font-weight: @weight;
+    font-size: @size;
+    .remove_margin();
+  }
+  .eastline-widget-bio {
+    font-size: @size;
+    .remove_margin();
+  }
+}
